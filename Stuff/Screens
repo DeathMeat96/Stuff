@@ -1,0 +1,17 @@
+  theme: {
+    container: {
+      padding: {
+        DEFAULT: '15px',
+      },
+    },
+    screens: {
+
+      '2xs': { 'raw': '(max-height: 650px)' }, // Mobile (iPhone 3 - iPhone XS Max).
+      xs: { min: '375px' }, // Mobile (iPhone 3 - iPhone XS Max).
+      sm: { min: '530px', max: '897px' }, // Landscape
+      md: { min: '898px', max: '1199px' }, // Tablet (matches max: iPad Pro @ 1112px). laptop
+      lg: { min: '1200px' }, // Desktop smallest.
+      xl: { min: '1440px' }, // Desktop wide.
+      '2xl': { min: '1920px' } // Desktop widescreen. 4k
+      
+    },
